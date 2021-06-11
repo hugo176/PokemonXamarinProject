@@ -574,3 +574,4 @@ C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon.Android\obj\Debug\110\stamp\
 C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
