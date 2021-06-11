@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pokemon.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="3">
+            <Label Text="Pokemon's" HorizontalTextAlignment="Center" TextColor="White" FontSize="30" Padding="0"/>
+        </Frame>
+        
+        <!-- La busqueda se realia en base al nombre ingresado -->
+        <SearchBar Placeholder="Buscar pokemon"></SearchBar>
+        <SearchBar Placeholder="Buscar pokemon"></SearchBar>
+
+        <Button Text="kjkj" 
+                TextColor="Black"
+                BackgroundColor="Aqua"
+                BorderColor="Aqua"
+                BorderWidth="10"
+                CornerRadius="10"
+                WidthRequest="200"
+                HorizontalOptions="Center"
+                HeightRequest="45"
+                Padding="0"
+        >
+        </Button>
+
+        <ListView>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>bulbasaur</x:String>
+                    <x:String>bulbasaur</x:String>
+                    <x:String>bulbasaur</x:String>
+                    <x:String>bulbasaur</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

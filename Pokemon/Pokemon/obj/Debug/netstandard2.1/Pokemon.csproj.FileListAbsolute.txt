@@ -1,0 +1,14 @@
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.csproj.AssemblyReference.cache
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.AssemblyInfoInputs.cache
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.AssemblyInfo.cs
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.dll
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\ref\Pokemon.dll
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\Pokemon.pdb
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\bin\Debug\netstandard2.1\Pokemon.deps.json
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\bin\Debug\netstandard2.1\Pokemon.dll
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\bin\Debug\netstandard2.1\ref\Pokemon.dll
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\bin\Debug\netstandard2.1\Pokemon.pdb
+C:\Users\hugof\Source\Repos\Pokemon\Pokemon\Pokemon\obj\Debug\netstandard2.1\XamlC.stamp
