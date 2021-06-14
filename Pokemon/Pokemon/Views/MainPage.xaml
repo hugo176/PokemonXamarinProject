@@ -8,11 +8,22 @@
             <Label Text="Pokemon's" HorizontalTextAlignment="Center" TextColor="White" FontSize="30" Padding="0"/>
         </Frame>
         
-        <!-- La busqueda se realia en base al nombre ingresado -->
-        <SearchBar Placeholder="Buscar pokemon"></SearchBar>
-        <SearchBar Placeholder="Buscar pokemon"></SearchBar>
+        <!-- La busqueda se realia en base al nombre ingresado 
+        <SearchBar Placeholder="Buscar pokemon"
+                   x:Name="search"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference search}}"
+                   ></SearchBar>
+        -->
 
-        <Button Text="kjkj" 
+        <!-- La busqueda se realia en base al nombre ingresado -->
+        <SearchBar Placeholder="Buscar pokemon"
+                   x:Name="search"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference search}}"
+        ></SearchBar>
+        
+        <Button Text="Buscar" 
                 TextColor="Black"
                 BackgroundColor="Aqua"
                 BorderColor="Aqua"
@@ -22,9 +33,28 @@
                 HorizontalOptions="Center"
                 HeightRequest="45"
                 Padding="0"
+                Clicked="OnClickButton"
         >
         </Button>
 
+        <Label 
+               Text="{Binding Id}"
+        />
+        <Label 
+               Text="{Binding Abilities[1].Name}"
+        />
+        <Label 
+               Text="{Binding Id}"
+        />
+
+        <Label 
+               Text="{Binding Forms[0]}"
+        />
+
+        <Label 
+               Text="{Binding Sprites.Front_default}"
+        />
+        <!--
         <ListView>
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
@@ -35,6 +65,8 @@
                 </x:Array>
             </ListView.ItemsSource>
         </ListView>
+        -->
+        
     </StackLayout>
 
 </ContentPage>

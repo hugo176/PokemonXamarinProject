@@ -9,7 +9,7 @@ namespace Pokemon.Models
     {
         //Array con un objeto cuyas propieades son "name" y "url
         [JsonProperty("forms")]
-        public string[] Forms { get; set; }
+        public Object[] Forms { get; set; }
 
         //id
         [JsonProperty("id")]
@@ -20,10 +20,10 @@ namespace Pokemon.Models
          * */
 
         [JsonProperty("abilities")]
-        public string[] Abilities { get; set; }
+        public Ability[] Abilities { get; set; }
 
         /**/
         [JsonProperty("sprites")]
-        public object Sprites { get; set; }
+        public SpriteModel Sprites { get; set; }
     }
 }

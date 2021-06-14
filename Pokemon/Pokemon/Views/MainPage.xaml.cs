@@ -1,4 +1,6 @@
-﻿using Pokemon.ViewsModels;
+﻿using Newtonsoft.Json;
+using Pokemon.Models;
+using Pokemon.ViewsModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,13 +19,21 @@ namespace Pokemon
         {
             InitializeComponent();
         }
+        public async  void OnClickButton(object sender, EventArgs e)
+        {
 
+            PokemonModel pokemon = await ViewModel.LoadPokemon();
+            Console.WriteLine("--------------------------------------------");
+            
+            BindingContext = pokemon;
+            Console.WriteLine("Click");
+        }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             ViewModel = new MainPageViewModel();
             BindingContext = ViewModel;
-            await ViewModel.LoadPokemons();
+            await ViewModel.LoadPokemon();
         }
     }
 }

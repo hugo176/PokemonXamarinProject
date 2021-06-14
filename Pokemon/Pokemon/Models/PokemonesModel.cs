@@ -8,6 +8,6 @@ namespace Pokemon.Models
     class PokemonesModel
     {
         [JsonProperty("results")]
-        public Array[] Pokemones{ get; set; }
+        public PokemonModel[] Pokemones{ get; set; }
 }
 }
